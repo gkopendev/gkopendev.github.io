@@ -1,7 +1,5 @@
 # Quick LLM finetuning using modal labs and axolotl
 
-<p style="text-align: center;">
-
 Modal labs is a serverless platform which allows remote python code execution on GPUs and CPUs. Axolotl is a tool for finetuning various models.
 Let's run this [example](https://github.com/modal-labs/llm-finetuning) which finetunes a model to output valid SQL query given a valid schema and a natural language query.
 
@@ -90,6 +88,3 @@ and it should give response as
     [SQL] SELECT COUNT(*) FROM head WHERE age > 56 [/SQL]
 
 That's it, you have finetuned a LLM model and performed inference on it!
-
-</p>
-
